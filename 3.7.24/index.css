@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    background-color: rgb(145, 145, 226);
+    color: white;
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+/* Style for the logo image */
+.nav-logo img {
+    height: 40px; 
+    margin-right: 10px; 
+}
+
+/* Style for the navigation links */
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+   
+}
+
+.nav a.active {
+    font-weight:bold; /* Example of styling active link */
+}
+
+
+.body-img img{
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 20px; /
+}
+
+.p{
+    margin:10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 700px;
+}
+.side-image3{
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 20px;
+    
+}
